@@ -1,0 +1,8 @@
+Base path: C:/Program Files (x86)/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-1-3808
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=14557 outsize=3892 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (62): unrecognized identifier 'UNITY_FOG_COORDS'
+  api=4 type=0 insize=5225 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0

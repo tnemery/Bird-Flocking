@@ -1,0 +1,460 @@
+fileFormatVersion: 2
+guid: 4b17a871f44baff46a765aaed50d8d7d
+timeCreated: 1434667795
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: anim_controls_Grp
+    100002: animated_wings_cntrl_root
+    100004: animated_wings_wing_R_01
+    100006: animated_wings_wing_R_02
+    100008: animated_wings_wing_R_02 1
+    100010: animated_wings_wing_R_03
+    100012: animated_wings_wings_grp
+    100014: cntrl_head
+    100016: cntrl_L_ankle
+    100018: cntrl_neck_01
+    100020: cntrl_neck_02
+    100022: cntrl_neck_03
+    100024: cntrl_R_ankle
+    100026: cntrl_root
+    100028: cntrl_tail_01
+    100030: cntrl_tail_02
+    100032: cntrl_thumb_L
+    100034: cntrl_thumb_R
+    100036: cntrl_toe_L_b2
+    100038: cntrl_toe_L_c1
+    100040: cntrl_toe_L_c2
+    100042: cntrl_toe_R_b
+    100044: cntrl_toe_R_c
+    100046: cntrl_toe_R_c1
+    100048: //RootNode
+    100050: global_rig_Grp
+    100052: ik_grp
+    100054: ikHandle1
+    100056: ikHandle2
+    100058: jnt_beak_01
+    100060: jnt_beak_02
+    100062: jnt_eye_L
+    100064: jnt_eye_R
+    100066: jnt_head
+    100068: jnt_L_foot_root
+    100070: jnt_L_hip
+    100072: jnt_L_knee
+    100074: jnt_L_thumb_01
+    100076: jnt_L_thumb_02
+    100078: jnt_L_thumb_03
+    100080: jnt_L_thumb_04
+    100082: jnt_L_toe_01_a
+    100084: jnt_L_toe_01_b
+    100086: jnt_L_toe_01_c
+    100088: jnt_L_toe_02_a
+    100090: jnt_L_toe_02_b
+    100092: jnt_L_toe_02_c
+    100094: jnt_L_toe_03_a
+    100096: jnt_L_toe_03_b
+    100098: jnt_L_toe_03_c
+    100100: jnt_L_toe_04_a
+    100102: jnt_L_toe_04_b
+    100104: jnt_L_toe_04_c
+    100106: jnt_L_toe_root_a
+    100108: jnt_L_toe_root_c
+    100110: jnt_midsection
+    100112: jnt_neck_01
+    100114: jnt_neck_02
+    100116: jnt_R_foot_root
+    100118: jnt_R_hip
+    100120: jnt_R_knee
+    100122: jnt_R_thumb_01
+    100124: jnt_R_thumb_02
+    100126: jnt_R_thumb_03
+    100128: jnt_R_thumb_04
+    100130: jnt_R_toe_01_b
+    100132: jnt_R_toe_01_b 1
+    100134: jnt_R_toe_01_c
+    100136: jnt_R_toe_02_b
+    100138: jnt_R_toe_02_b 1
+    100140: jnt_R_toe_02_c
+    100142: jnt_R_toe_03_b
+    100144: jnt_R_toe_03_b 1
+    100146: jnt_R_toe_03_c
+    100148: jnt_R_toe_04_b
+    100150: jnt_R_toe_04_b 1
+    100152: jnt_R_toe_04_c
+    100154: jnt_R_toe_root_a
+    100156: jnt_R_toe_root_c
+    100158: jnt_Root
+    100160: jnt_tail_01
+    100162: jnt_tail_02
+    100164: jnt_tail_03
+    100166: Kestrel_geo
+    100168: kestrelBody
+    100170: kestrtel_cntrl_master
+    100172: skeleton_Grp
+    400000: anim_controls_Grp
+    400002: animated_wings_cntrl_root
+    400004: animated_wings_wing_R_01
+    400006: animated_wings_wing_R_02
+    400008: animated_wings_wing_R_02 1
+    400010: animated_wings_wing_R_03
+    400012: animated_wings_wings_grp
+    400014: cntrl_head
+    400016: cntrl_L_ankle
+    400018: cntrl_neck_01
+    400020: cntrl_neck_02
+    400022: cntrl_neck_03
+    400024: cntrl_R_ankle
+    400026: cntrl_root
+    400028: cntrl_tail_01
+    400030: cntrl_tail_02
+    400032: cntrl_thumb_L
+    400034: cntrl_thumb_R
+    400036: cntrl_toe_L_b2
+    400038: cntrl_toe_L_c1
+    400040: cntrl_toe_L_c2
+    400042: cntrl_toe_R_b
+    400044: cntrl_toe_R_c
+    400046: cntrl_toe_R_c1
+    400048: //RootNode
+    400050: global_rig_Grp
+    400052: ik_grp
+    400054: ikHandle1
+    400056: ikHandle2
+    400058: jnt_beak_01
+    400060: jnt_beak_02
+    400062: jnt_eye_L
+    400064: jnt_eye_R
+    400066: jnt_head
+    400068: jnt_L_foot_root
+    400070: jnt_L_hip
+    400072: jnt_L_knee
+    400074: jnt_L_thumb_01
+    400076: jnt_L_thumb_02
+    400078: jnt_L_thumb_03
+    400080: jnt_L_thumb_04
+    400082: jnt_L_toe_01_a
+    400084: jnt_L_toe_01_b
+    400086: jnt_L_toe_01_c
+    400088: jnt_L_toe_02_a
+    400090: jnt_L_toe_02_b
+    400092: jnt_L_toe_02_c
+    400094: jnt_L_toe_03_a
+    400096: jnt_L_toe_03_b
+    400098: jnt_L_toe_03_c
+    400100: jnt_L_toe_04_a
+    400102: jnt_L_toe_04_b
+    400104: jnt_L_toe_04_c
+    400106: jnt_L_toe_root_a
+    400108: jnt_L_toe_root_c
+    400110: jnt_midsection
+    400112: jnt_neck_01
+    400114: jnt_neck_02
+    400116: jnt_R_foot_root
+    400118: jnt_R_hip
+    400120: jnt_R_knee
+    400122: jnt_R_thumb_01
+    400124: jnt_R_thumb_02
+    400126: jnt_R_thumb_03
+    400128: jnt_R_thumb_04
+    400130: jnt_R_toe_01_b
+    400132: jnt_R_toe_01_b 1
+    400134: jnt_R_toe_01_c
+    400136: jnt_R_toe_02_b
+    400138: jnt_R_toe_02_b 1
+    400140: jnt_R_toe_02_c
+    400142: jnt_R_toe_03_b
+    400144: jnt_R_toe_03_b 1
+    400146: jnt_R_toe_03_c
+    400148: jnt_R_toe_04_b
+    400150: jnt_R_toe_04_b 1
+    400152: jnt_R_toe_04_c
+    400154: jnt_R_toe_root_a
+    400156: jnt_R_toe_root_c
+    400158: jnt_Root
+    400160: jnt_tail_01
+    400162: jnt_tail_02
+    400164: jnt_tail_03
+    400166: Kestrel_geo
+    400168: kestrelBody
+    400170: kestrtel_cntrl_master
+    400172: skeleton_Grp
+    2300000: animated_wings_wing_R_01
+    2300002: animated_wings_wing_R_02
+    2300004: animated_wings_wing_R_02 1
+    2300006: animated_wings_wing_R_03
+    3300000: animated_wings_wing_R_01
+    3300002: animated_wings_wing_R_02
+    3300004: animated_wings_wing_R_02 1
+    3300006: animated_wings_wing_R_03
+    4300000: kestrelBody
+    4300002: animated_wings_wing_R_01
+    4300004: animated_wings_wing_R_02
+    4300006: animated_wings_wing_R_03
+    4300008: animated_wings_wing_R_02
+    7400000: fly
+    9500000: //RootNode
+    13700000: kestrelBody
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: fly
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Kestrel_geo
+        weight: 1
+      - path: Kestrel_geo/kestrelBody
+        weight: 1
+      - path: kestrtel_cntrl_master
+        weight: 1
+      - path: kestrtel_cntrl_master/animated_wings_cntrl_root
+        weight: 1
+      - path: kestrtel_cntrl_master/animated_wings_cntrl_root/animated_wings_wings_grp
+        weight: 1
+      - path: kestrtel_cntrl_master/animated_wings_cntrl_root/animated_wings_wings_grp/animated_wings_wing_R_01
+        weight: 1
+      - path: kestrtel_cntrl_master/animated_wings_cntrl_root/animated_wings_wings_grp/animated_wings_wing_R_01/animated_wings_wing_R_02
+        weight: 1
+      - path: kestrtel_cntrl_master/animated_wings_cntrl_root/animated_wings_wings_grp/animated_wings_wing_R_03
+        weight: 1
+      - path: kestrtel_cntrl_master/animated_wings_cntrl_root/animated_wings_wings_grp/animated_wings_wing_R_03/animated_wings_wing_R_02
+          1
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_L_ankle
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_L_ankle/cntrl_thumb_L
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_L_ankle/cntrl_toe_L_b2
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_L_ankle/cntrl_toe_L_c1
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_L_ankle/cntrl_toe_L_c2
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_R_ankle
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_R_ankle/cntrl_thumb_R
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_R_ankle/cntrl_toe_R_b
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_R_ankle/cntrl_toe_R_c
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_R_ankle/cntrl_toe_R_c1
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_root
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_root/cntrl_neck_03
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_root/cntrl_neck_03/cntrl_neck_02
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_root/cntrl_neck_03/cntrl_neck_02/cntrl_neck_01
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_root/cntrl_neck_03/cntrl_neck_02/cntrl_neck_01/cntrl_head
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_root/cntrl_tail_01
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/anim_controls_Grp/cntrl_root/cntrl_tail_01/cntrl_tail_02
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/ik_grp
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/ik_grp/ikHandle1
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/ik_grp/ikHandle2
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_thumb_01
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_thumb_01/jnt_L_thumb_02
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_thumb_01/jnt_L_thumb_02/jnt_L_thumb_03
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_thumb_01/jnt_L_thumb_02/jnt_L_thumb_03/jnt_L_thumb_04
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_toe_01_b
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_toe_01_b/jnt_L_toe_02_b
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_toe_01_b/jnt_L_toe_02_b/jnt_L_toe_03_b
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_toe_01_b/jnt_L_toe_02_b/jnt_L_toe_03_b/jnt_L_toe_04_b
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_toe_root_a
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_toe_root_a/jnt_L_toe_01_a
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_toe_root_a/jnt_L_toe_01_a/jnt_L_toe_02_a
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_toe_root_a/jnt_L_toe_01_a/jnt_L_toe_02_a/jnt_L_toe_03_a
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_toe_root_a/jnt_L_toe_01_a/jnt_L_toe_02_a/jnt_L_toe_03_a/jnt_L_toe_04_a
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_toe_root_c
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_toe_root_c/jnt_L_toe_01_c
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_toe_root_c/jnt_L_toe_01_c/jnt_L_toe_02_c
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_toe_root_c/jnt_L_toe_01_c/jnt_L_toe_02_c/jnt_L_toe_03_c
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_L_hip/jnt_L_knee/jnt_L_foot_root/jnt_L_toe_root_c/jnt_L_toe_01_c/jnt_L_toe_02_c/jnt_L_toe_03_c/jnt_L_toe_04_c
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_midsection
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_midsection/jnt_neck_01
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_midsection/jnt_neck_01/jnt_neck_02
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_midsection/jnt_neck_01/jnt_neck_02/jnt_head
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_midsection/jnt_neck_01/jnt_neck_02/jnt_head/jnt_beak_01
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_midsection/jnt_neck_01/jnt_neck_02/jnt_head/jnt_beak_01/jnt_beak_02
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_midsection/jnt_neck_01/jnt_neck_02/jnt_head/jnt_eye_L
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_midsection/jnt_neck_01/jnt_neck_02/jnt_head/jnt_eye_R
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_thumb_01
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_thumb_01/jnt_R_thumb_02
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_thumb_01/jnt_R_thumb_02/jnt_R_thumb_03
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_thumb_01/jnt_R_thumb_02/jnt_R_thumb_03/jnt_R_thumb_04
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_toe_01_b
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_toe_01_b/jnt_R_toe_02_b
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_toe_01_b/jnt_R_toe_02_b/jnt_R_toe_03_b
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_toe_01_b/jnt_R_toe_02_b/jnt_R_toe_03_b/jnt_R_toe_04_b
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_toe_root_a
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_toe_root_a/jnt_R_toe_01_b
+          1
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_toe_root_a/jnt_R_toe_01_b
+          1/jnt_R_toe_02_b 1
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_toe_root_a/jnt_R_toe_01_b
+          1/jnt_R_toe_02_b 1/jnt_R_toe_03_b 1
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_toe_root_a/jnt_R_toe_01_b
+          1/jnt_R_toe_02_b 1/jnt_R_toe_03_b 1/jnt_R_toe_04_b 1
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_toe_root_c
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_toe_root_c/jnt_R_toe_01_c
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_toe_root_c/jnt_R_toe_01_c/jnt_R_toe_02_c
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_toe_root_c/jnt_R_toe_01_c/jnt_R_toe_02_c/jnt_R_toe_03_c
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_R_hip/jnt_R_knee/jnt_R_foot_root/jnt_R_toe_root_c/jnt_R_toe_01_c/jnt_R_toe_02_c/jnt_R_toe_03_c/jnt_R_toe_04_c
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_tail_01
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_tail_01/jnt_tail_02
+        weight: 1
+      - path: kestrtel_cntrl_master/global_rig_Grp/skeleton_Grp/jnt_Root/jnt_tail_01/jnt_tail_02/jnt_tail_03
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
